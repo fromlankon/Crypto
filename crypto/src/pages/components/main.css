@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Manrope;
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url(../../../src/fonts/Manrope-Regular.ttf);
+}
+
+#body{
+    width: 100%;
+    min-height: 100vh;
+    padding: 60px 0;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 18px;
+    background-color: #FAFAFA;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.blackBox{
+    width: 360px;
+    height: 120px;
+    background-color: #171717;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    padding-left: 12px;
+    position: relative;
+}
+
+.mountain{
+    position: absolute;
+    right: 0;
+}
+
+.envelope{
+    position: absolute;
+    right: 20px;
+    width: 120px;
+    bottom: 0;
+}
+
+.top{
+    display: flex;
+    gap: 8px;
+    padding-left: 15px;
+}
+
+.text1{
+    font-weight: 600;
+    font-size: 18px;
+    color: #171717;
+}
+
+.text2{
+    color: #b8b8b8;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.text3{
+    font-size: 21px;
+    color: white;
+    font-weight: 700;
+}
+
+.currencyBlock{
+    display: flex;
+    align-items: end;
+    gap: 10px;
+}
+
+.currency{
+    color: #b8b8b8;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.btc{
+    display: flex;
+    align-items: end;
+    gap: 4px;
+}
+
+.text4{
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.text5{
+    color: #b8b8b8;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.bottom{
+    width: 360px;
+}
+
+.border{
+    width: 100%;
+    border: 1px solid #e8e8e8;
+    border-radius: 12px;
+    box-sizing: border-box;
+    background-color: white;
+    height: 760px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.border::-webkit-scrollbar{
+    display: none;
+}
+
+.card{
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e8e8e8;
+   
+}
+
+.cardLeft{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cardImage{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.text6{
+    font-size: 14px;
+    font-weight: 600;
+    color: #171717;
+}
+
+.text7{
+    font-size: 12px;
+    color: #848484;
+    font-weight: 500;
+}
+
+.text8{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.text9{
+    font-size: 13px;
+    color: #848484;
+    font-weight: 500;
+}
+
+.blockTop{
+    width: 360px;
+    border: 1px solid #e8e8e8;
+    border-radius: 12px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.text10{
+    font-size: 10px;
+    color: #848484;
+    user-select: none;
+    font-weight: 600;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.headChildren{
+    display: flex;
+    gap: 20px;
+}
+
+.fa-star{
+    color: #E0F64B;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.card2{
+    padding: 15px 16px;
+    border: 1px solid #e8e8e8;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.blocks{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: .5s;
+}
+
+.percent{
+    width: 58px;
+    height: 24px;
+    background-color: #1abc7b;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.card3{
+    width: 380px;
+    padding: 24px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #e8e8e8;
+    background-color: white;
+}
+
+.card3 div:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card3 div:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.text11{
+    width: 24px;
+    height: 24px;
+    background-color: #e0f64b;
+    color: black;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.text12{
+    color: #171717;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.text13{
+    color: #848484;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.blockThird{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.thirdBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.showMore{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: #4a525a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+    user-select: none;
+    font-size: 14px;
+}
+
+.showMore:hover{
+    background-color: #343A40;
+}
+
+.fa-sort{
+    margin-right: 10px;
+    font-size: 10px;
+    color: #848484;
+}
+
+.sort{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.dataWallet{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
